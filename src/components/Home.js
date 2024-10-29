@@ -35,7 +35,7 @@ function Home() {
       id="home"
       className="no-scrollbar h-screen flex items-center justify-center"
       style={{
-        backgroundColor: "#0022BB", // Change background to blue
+        backgroundColor: "#5D8679", // Change background to blue
         backgroundSize: "cover", 
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat"
