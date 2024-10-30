@@ -9,3 +9,8 @@
 body {
   font-family: 'Montserrat', sans-serif;
 }
+
+/* Apply a background color to the entire app */
+.App {
+  background-color: #f7f7f7;
+}
