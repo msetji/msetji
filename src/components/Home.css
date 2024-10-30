@@ -6,16 +6,35 @@
     left: 5%;
   }
   
-  .home-title {
-    font-size: 96px; /* Larger font size for the title */
-    color: #fff;
-    margin: 0;
+/* src/Home.css */
+
+/* Animation keyframes */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px); /* Slide up effect */
   }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.home-title {
+  font-size: 96px; /* Larger font size for the title */
+  color: #fff;
+  margin: 0;
+  opacity: 0; /* Start hidden */
+  animation: fadeIn 1s ease-out forwards; /* Apply animation */
+}
+
   
   .home-subtitle {
     font-size: 40px; /* Slightly smaller font size for the subtitle */
     color: #fff;
     margin: 0;
+    opacity: 0; /* Start hidden */
+    animation: fadeIn 1s ease-out 1s forwards; /* Fade in subtitle with a 0.5s delay */
   }
 
   /* .home, .home-container {
@@ -24,6 +43,6 @@
 
   /* Color for "Michael Setji" */
 .highlight-text {
-    color: #053D38; /* Replace with your desired color */
+    color: #053D38; 
   }
   
