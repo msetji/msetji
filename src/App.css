@@ -1,74 +1,11 @@
-/* global index.css */ 
+/* src/App.css */
+
+/* global index.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
-
-/* Header styles */
-
-.header {
-  padding: 10px 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  z-index: 1000;
-  font-family: 'Montserrat', sans-serif; /* Apply the Montserrat font */
-}
-
-/* debugging stuff */
-
-/* .header, .nav, .nav-list, .nav-item {
-  border: 1px solid red;
-} */
-
-.nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-}
-
-.nav-list {
-  display: flex;
-  align-items: center;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-}
-
-.nav-item:first-child {
-  margin-right: auto;
-}
-
-.nav-item {
-  padding: 10px;
-}
-
-.nav-right {
-  display: flex;
-  font-size: 20px; /* Adjust font size */
-  gap: 5vw; /* Custom spacing between items on the right */
-}
-
-.nav-link {
-  color: #fff;
-  text-decoration: none;
-  font-weight: 300;
-  letter-spacing: 0.05em; /* Adjust letter spacing */
-  text-transform: uppercase; /* Make text uppercase */
-  transition: color 0.3s ease;
-}
-
-.nav-link:hover {
-  color: #f0a500;
-}
-
-.bold-text {
-  font-weight: 600;
-  color: #fff
+/* Apply Montserrat as the default font for the entire app */
+body {
+  font-family: 'Montserrat', sans-serif;
 }
