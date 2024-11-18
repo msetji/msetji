@@ -6,7 +6,6 @@
     left: 5%;
   }
   
-/* src/Home.css */
 
 /* Animation keyframes */
 @keyframes fadeIn {
@@ -45,4 +44,7 @@
 .highlight-text {
     color: #053D38; 
   }
+
+
+  
   

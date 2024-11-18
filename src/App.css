@@ -14,3 +14,16 @@ body {
 .App {
   background-color: #f7f7f7;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+.section {
+  width: 100%;
+  min-height: 100vh; /* Full viewport height for each section */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+
