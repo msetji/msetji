@@ -5,11 +5,9 @@ import './AboutMe.css'; // Make sure to style this component
 const About = () => {
   return (
     <section id="about" className="section">
-      <h2>About Me</h2>
       <div className="about-container">
         <div className="about-image">
-          {/* Replace with your image URL or use an <img> tag */}
-          <img src="/path-to-your-image.jpg" alt="Michael Setji" className="profile-pic" />
+          <img src="/images/IMG_9819.jpg" alt="Michael Setji" className="profile-pic" />
         </div>
         <div className="about-bio">
           <p>
