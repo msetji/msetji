@@ -2,7 +2,7 @@
 
 /* Header styles */
 .header {
-    padding: 10px 30px;
+    padding: 5px 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,7 +34,7 @@
   }
   
   .nav-item {
-    padding: 10px;
+    padding: 10px 20px;
   }
   
   .nav-right {
@@ -60,3 +60,11 @@
     font-weight: 600;
     color: #fff;
   }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+   /* nav-item, .nav-right {
+    border: 1px solid red;
+  }  */

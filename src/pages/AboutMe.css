@@ -1,0 +1,39 @@
+/* About.css */
+.section {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .about-container {
+    display: flex;
+    flex-wrap: wrap; /* Ensures responsiveness */
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .about-image {
+    flex: 1;
+    max-width: 300px; /* Limit image size */
+    margin: 10px;
+  }
+  
+  .profile-pic {
+    width: 100%;
+    height: auto;
+    border-radius: 50%; /* Makes the image circular */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds shadow for styling */
+  }
+  
+  .about-bio {
+    flex: 2;
+    max-width: 600px;
+    margin: 10px;
+    text-align: left;
+  }
+  
+  .about-bio p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #333;
+  }

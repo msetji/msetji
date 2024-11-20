@@ -19,11 +19,15 @@ html {
   scroll-behavior: smooth;
 }
 
-.section {
-  width: 100%;
-  min-height: 100vh; /* Full viewport height for each section */
-  padding: 20px;
-  box-sizing: border-box;
+section {
+  min-height: 100vh; /* Each section takes up full viewport height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
+div {
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+}
 
